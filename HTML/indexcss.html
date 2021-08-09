@@ -1,0 +1,34 @@
+<!--Se no inicio do código no vscode se digiar html, aparece a opção html:5 que uma vez escolhida já preenche o básico da estrutura do html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula css1</title>
+</head>
+<body>
+    <h1>Aula css1</h1>
+    <!--se quiser utilizar o recurso lorem para preencher texto basta digitar lorem10 + tab que é preenchido com 10 palavras o texto-->
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aliquam modi rerum autem ea a quia et totam voluptatibus earum.</span>
+    <button>Inscreva-se!</button>
+
+        <!--No font-family abaixo as fontes serão escolhidas se estiverem disponíveis, o navegador vai tentar aplicar da primeira da esquerda até a última da direita-->
+        <!--O css aplica em cascata, isso significa que a última alteração se impõe em relação à primeira, nesse exemplo temos isso com a tag SPAN-->
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        h1, span {
+            color: blue;
+        }
+
+        span {
+            color: darkblue;
+        }
+
+    </style>
+
+</body>
+</html>

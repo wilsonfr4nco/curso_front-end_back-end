@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+/* max-width estabelece a area que pode ser disposto o objeto, no caso em exemplo o texto*/
+
+/*marging define a margem com de todos os lados da seguinte forma: marging: 10px 5px 10px 5px <- cada um desses itens corresponde
+ a um lado do objeto se for utilizado apenas dois valores eles corresponderão cada um ao lado direito-esquer e cima-baixo*/
+
+ /*display flex coloca cada objeto ao lado do outro*/
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+}
+/*o padding adiciona espaços ao redor do objeto*/
+p {
+    text-align: justify;
+    padding: 0 10px;
+}
+/*O list-style none tira os pontos que são criados quando se adiciona uma lista*/
+.lista__footer{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+/*com text-decoration none se tira o sublinhado do texto, por exemplo */
+
+/*o padding colocado no "a" não é bom pois a área de clique válida fica muito ampla,
+ o recomendado é colocar o padding no "li" para restringir mais essa área*/
+
+ /* Quando se colocar uma cor específica no link "a" ele não fica mais mudando de cor após clicado.*/
+a {
+    text-decoration: none;
+    color: blue;
+    /*padding: 10px;*/
+}
+li {
+    padding: 10px;
+}

@@ -1,0 +1,12 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkgreen;
+}
+
+li {
+    text-decoration: underline;
+}
+
+ul {
+    border: 3px solid black;
+}

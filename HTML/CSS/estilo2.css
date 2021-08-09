@@ -1,0 +1,21 @@
+/* selecionando TAGs*/
+body {
+    text-align: center;
+}
+/* selecionando IDs*/
+#login {
+    background-color: black;
+    color: white;
+}
+#registre {
+    background-color: black;
+    color:white;
+}
+
+/* selecionando Classes*/
+.lista {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    color: tomato;
+}
+
