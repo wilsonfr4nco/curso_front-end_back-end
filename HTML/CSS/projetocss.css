@@ -1,0 +1,17 @@
+/*Se inicia colocando o padding e magem zero, pois os elementos já possuem seus valores desses itens préestabelecidos */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    /*color: chartreuse;*/
+    /*abaixo temos o rgb a e opacidade*/
+    color: rgba(15, 22, 1, 0.712);
+}
+/*reiterando que as listas devem ficar sem estilo definido*/
+ul {
+    list-style: none;
+}
+/*remover para todos os links os estilos com underline*/
+a {
+    text-decoration: none;
+}
