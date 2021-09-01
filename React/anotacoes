@@ -1,0 +1,13 @@
+O professor considera mais rápido e com mais funções avançada o yarn do que o npm.
+
+Vamos utilizar o https://github.com/facebook/create-react-app para não ter que parametrizar o react que é muito verboso.
+
+vamos usar "npx create-react-app gamagit" para preparar todas as dependências para trabalharmos com o react.
+depois desse passo acima vamos entrar na pasta que criamos "gamagit" e digitar "npm start"
+
+
+na ágina aberta existem elementos presente no arquivo /public/index.html e do /src/App.js, pois o react faz uma renderização e componentização dos elementos.
+
+o javaSrtipt do react vai pegar um código que você escreveu no js e inserir em seu html. (componentização) - serão renderizados 
+
+Eles são renderizados por um processo que existe no arquivo /src/index.js

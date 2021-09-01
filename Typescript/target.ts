@@ -1,0 +1,1 @@
+// no arquivo do tsconfig.json existe um campo chamado target, cujo a versão mais recomendada é a ES5 antes da mudança que ocorreu em 2015.

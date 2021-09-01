@@ -1,0 +1,26 @@
+
+// esse ambiente foi criado depois de criada a pasta GraphQL usando "code GraphQL -r"
+
+// no arquivo abaixo foi removida uma linha "description": "", e em seu lugar colocada "private": true, 
+// Como não estamos ligando com pacote e ser publicado em um lugar vamos tirar o description e colocar o private para não ser publicado.
+// é importante o campo "main" e os scripts
+
+
+// epois instalamos o modulo esm com o comando "node i -D esm"
+// na sequência criamos o script "start" e depois rotadmos esse script com o comando "npm run start"
+{
+    "name": "graphql",
+    "version": "1.0.0",
+    "private": true,
+    "main": "src/main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node -r esm ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "esm": "^3.2.25"
+    }
+  }
+  
