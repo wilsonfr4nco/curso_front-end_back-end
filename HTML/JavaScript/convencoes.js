@@ -1,5 +1,5 @@
 // Convencoes do javascript:
-// Colocar a variavel no moco camelCase(primeira letra minúscula segunda palavra com letra maiúscula)
+// Colocar a variavel no modo camelCase(primeira letra minúscula segunda palavra com letra maiúscula)
 // Todas as veriáveis devem comecar com uma letra (pois se comercar com numero pode dar problema de interpretacao de seu compilador)
 // sempre colocar espaco entre os operadoes depois da virgula.
 // Identacao deve ser usado dois espacos

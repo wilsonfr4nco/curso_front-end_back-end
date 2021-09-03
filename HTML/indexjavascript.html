@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 style="text-align: center;">O que podemos fazer com javaScript?</h2>
+
+    <div>
+        <p id='demo'>Javascript pode modificar o conteúdo HTML</p>
+
+        <button type='button' onclick='document.getElementById("demo").innerHTML = "Olá JavaScript!"'>Click aqui!</button>
+        <p></p>
+        <button type='button' onclick='document.getElementById("demo").innerHTML = "O que podemos fazer com javaScript?"'>Retorne a frase.</button>
+    </div>
+
+    <div>
+        <h2>Vamos transitar entre imagens</h2>
+
+        <button onclick="document.getElementById('myImage').src='./images/pic_bulbon.gif'">Acenda a Luz</button>
+
+        <img id='myImage' src='./images/pic_bulboff.gif' style='width:100px'>
+
+        <button onclick="document.getElementById('myImage').src='./images/pic_bulboff.gif'">Deslige a Luz</button>
+
+    </div>
+    <div>
+        <h1>Que horas são?</h1>
+        <p id='hora' style="font-size: 15px;"></p>
+        <button id='botao' type='button' onclick="document.getElementById('hora').innerHTML = Date()">Hora atual</button>
+    </div>
+
+    <div>
+        <h1>Abora vamos adicionar o script por um arquivo separado</h1>
+        <script></script>
+
+
+    </div>
+
+
+</body>
+</html>

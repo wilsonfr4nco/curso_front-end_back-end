@@ -5,8 +5,9 @@
 
  console.log(soma(3, 5))
 
-//  é  importante utilizar constante para a função não ser sobrescrita por conta de erros no código.
-// é bom colocar função dentro de constantes
+/*  é  importante utilizar constante para a função não ser sobrescrita por conta de erros no código.
+é bom colocar função dentro de constantes 
+*/
  const multiplicacao = function(x, y) {
      return x * y;
  }
