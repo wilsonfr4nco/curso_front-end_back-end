@@ -4,21 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JavaScript Lessons</title>
+    <style>
+        body {
+            font-family:'Courier New', Courier, monospace;
+            color:black;
+        }
+        p {
+            border: 1px solid black;
+        }
+    </style>
 </head>
-<body>
+<body style="background-color: rgb(170, 241, 186);">
+    <p title='Titulo'>A text with tooltip</p>
     <h2 style="text-align: center;">O que podemos fazer com javaScript?</h2>
 
+    <img src="images/matrix.jpg" width="1150" height="25">
+
     <div>
-        <p id='demo'>Javascript pode modificar o conteúdo HTML</p>
+        <p title="Click on buttons" id='demo'>Javascript pode modificar o conteúdo HTML</p>
 
         <button type='button' onclick='document.getElementById("demo").innerHTML = "Olá JavaScript!"'>Click aqui!</button>
         <p></p>
         <button type='button' onclick='document.getElementById("demo").innerHTML = "O que podemos fazer com javaScript?"'>Retorne a frase.</button>
     </div>
+    <p></p>
+    <img src="images/matrix.jpg" width="1150" height="25">
 
     <div>
         <h2>Vamos transitar entre imagens</h2>
+        <hr>
 
         <button onclick="document.getElementById('myImage').src='./images/pic_bulbon.gif'">Acenda a Luz</button>
 
@@ -32,14 +47,41 @@
         <p id='hora' style="font-size: 15px;"></p>
         <button id='botao' type='button' onclick="document.getElementById('hora').innerHTML = Date()">Hora atual</button>
     </div>
+    <p></p>
+    <img src="images/matrix.jpg" width="1150" height="25">
+
 
     <div>
-        <h1>Abora vamos adicionar o script por um arquivo separado</h1>
+        <h1>Abora vamos editar textos</h1>
+        <p>Lorem ipsum dolor, sit amet <strong>important</strong> consectetur adipisicing <em>enphasize word</em> elit. Rem <mark>highlight word</mark> blanditiis odio<br> quibusdam! Possimus corrupti animi odio <sub>subscript 2</sub> accusantium, dignissimos accusamus numquam modi, impedit quaerat aut dolorum quia <del>strikeout word</del> deserunt ipsa, enim tenetur? Lorem ipsum <q>quout</q> dolor sit amet consectetur adipisicing elit. Eveniet, necessitatibus eaque, repellat non quae id unde rem temporibus obcaecati, debitis deserunt! Provident eos voluptatem aperiam labore obcaecati, a tenetur perspiciatis totam consectetur dolores saepe dicta ad? Quisquam numquam fugiat similique!</p>
+
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+        </blockquote>
+
+        <bdo dir="rtl">What a beautiful day my friends!</bdo>
+
+        <p>
+            The <abbr title="World Health Organization"> WHO</abbr> was founded in 1948.
+        </p>
+
+        <pre>
+        My poem on html repecting lines.
+        Just using pre linke element.
+        All lines are ok.
+        </pre>
         <script></script>
 
 
     </div>
 
+    <div>
+        <a style="text-decoration: none;" href='https://www.w3schools.com'>Onde aprender front-end</a>
+    </div>
+
+    <div>
+        <img src='images/matrix.jpg' alt='images/matrix2.jpg'>
+    </div>
 
 </body>
 </html>

@@ -1,6 +1,7 @@
 // depois dos plugins instalado vamos importar
 import styled from 'styled-components';
-
+/* abaixo vamos importar o Link para poder ser utilizado como elemento pelo CSS senão só poderíamos utilizar os elementos do html como div, h1, ul, etc.*/
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div `
     width: 100%;
@@ -27,4 +28,16 @@ export const ListItem = styled.li `
     background: #000;
     color: #fff;
     padding: .5rem;
+`
+export const LinkHome = styled(Link)`
+    display: block;
+    width: 4rem;
+    text-align: center;
+    color: #fff;
+    margin: 2rem auto;
+    background-color: #000;
+    padding: .5rem 0;
+    text-decoration: none;
+
+
 `
